@@ -1,0 +1,470 @@
+/* CSS Document */
+
+.qi_top{
+	max-width: 1200px; 
+	margin: 0 auto;
+	font-size:0.3rem;
+	padding: 0.5% 0 0.5% 1%;
+	color: #646464;
+	overflow: hidden;
+}
+.qi_logo{
+	width:470px;
+	text-align:center;
+	padding: 2% 0;
+	margin:0 auto;
+}
+.qi_nav{
+	width:100%;
+	background: #64bdb6;
+	overflow: hidden;
+	height: 50px;
+	line-height: 50px;
+}
+.qi_nav p{
+	width: 700px;
+	margin:0 auto;
+}
+.qi_nav p a{
+	color: #fff;
+	font-size:0.4rem;
+	display:block;
+	padding: 0 10%;
+	text-align:center;
+	float: left;
+}
+.qi_nav p a:hover{
+	background:#81d1cb;
+}
+.qi_nav p a.selecteds{	
+	background:#81d1cb;
+}
+.qi_banner{
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.qi_bnsize_1{
+	position: absolute;
+	width: 100%;
+	top:30%;
+	left:50%;
+	color: #fff;
+	font-size: 1.6rem;
+	font-weight: bold;
+	text-align: center;
+}
+.qi_bnsize_2{
+	position: absolute;
+	top:48%;
+	left:50%;
+	color: #fff;
+	font-size: 0.8rem;
+}
+.qi_bnsize_3{
+	position: absolute;
+	top:60%;
+	left:50%;
+	color: #fff;
+	font-size:0.8rem;
+	line-height: 150%;
+}
+.qi_con{
+	width: 1200px;
+	margin:0 auto;
+	font-size:0.35rem;
+	color: #969696;
+	line-height:190%;
+	padding:3% 0;
+	overflow: hidden;
+}
+.qi_con p.qi_p1{
+	/*font-weight:bold;*/
+	padding-bottom:4%;
+	font-size: 0.55rem;
+	color: #646464;
+}
+.qi_con p.qi_p2{
+	padding: 2.5% 0;
+}
+.qi_con p.qi_p4{
+	/*font-weight:bold;*/
+	padding-bottom:1%;
+	font-size: 0.7rem;
+	line-height: 120%;
+	color: #646464;
+}
+.qi_con p.qi_p3{
+	padding:1% 0;
+}
+.qi_con p.qi_p5{
+	border-bottom:1px solid #ccc;
+	margin-bottom:1%;
+	padding-bottom:1%;
+	font-size: 0.45rem;
+	color: #646464;
+}
+.qi_con p.qi_p8{
+	font-size:0.5rem;
+	color: #646464;
+	padding-top: 2%;
+}
+.qi_con p.qi_p6{
+	text-indent:0.45rem;
+}
+.qi_con p.qi_p7{
+	/*font-weight: bold;*/
+	color: #646464;
+}
+.qi_adimg{
+	width: 1200px;
+	margin:0 auto;
+	overflow: hidden;
+}
+.qi_adimg a, .qi_adimg3 a{
+	position: relative;
+}
+.qi_adimg a em, .qi_adimg3 a em{
+	position: absolute;
+	top:5%;
+	left:3%;
+	color: #fff;
+	line-height: 120%;
+	font-size: 0.35rem;
+	font-weight: 100;
+}
+.qi_adimg a em i, .qi_adimg3 a em i{
+	display: block;
+	font-size: 0.5rem;
+	font-weight: bold;
+	margin-top:20px;
+}
+.qi_adimg a b, .qi_adimg3 a b{
+	position: absolute;
+	display: block;
+	font-size: 0.3rem;
+	font-weight: 100;
+	bottom:5%;
+	left:3%;
+	color: #fff;
+	text-decoration: underline;
+}
+.qi_adimg a, .qi_adimg2 section a{
+	display:block;
+	float: left;
+}
+.qi_adimg a:nth-child(1), .qi_adimg a:nth-child(2){
+	width: 468px;
+	margin-right:20px;
+}
+.qi_adimg a:nth-child(3){
+	width: 224px;
+}
+.qi_adimg2{
+	width: 100%;
+	overflow: hidden;
+	background: #f2f2f2;
+	margin:3% auto 0;
+}
+.qi_adimg2 section{
+	width: 900px;
+	margin:0 auto;
+	overflow: hidden;
+	padding: 2% 0;
+}
+.qi_adimg2 section a:nth-child(1){
+	width: 87px;
+	margin-right:240px;
+}
+.qi_adimg2 section a:nth-child(2){
+	width: 158px;
+	margin-right:240px;
+}
+.qi_adimg2 section a:nth-child(3){
+	width: 162px;
+}
+.qi_adimg3{
+	display: none;
+}
+.qi_botnav{
+	background:#64bdb6;
+	text-align: center;
+	overflow: hidden;
+	height: 60px;
+	line-height: 60px;
+}
+.qi_botnav section{
+	width:1200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.qi_botnav section a{
+	height: 60px;
+	display: block;
+	color: #fff;
+	float: left;
+	padding: 0 2%;
+	font-size:0.3rem;
+	text-align:center;
+	margin-right:125px;
+}
+.qi_botnav section a em{
+	display:block;
+}
+.qi_botnav section a:nth-child(3){
+	text-align:left;
+}
+.qi_botnav section a:hover{	
+	background:#81d1cb;
+}
+.qi_botnav section a:nth-child(3):hover{
+	background:none;	
+}
+
+.qi_botnav section a:nth-child(4){
+	text-align:left;
+	padding-right: 2%
+}
+.qi_botnav section a:nth-child(4) span{
+	float: left;
+}
+.qi_botnav section a:nth-child(4) img{
+	float: left;
+	display:block;
+	width: 10px;
+	margin:20px 0 0 10px;
+}
+
+footer{
+	text-align: center;
+	padding: 1.5% 0;
+	font-size: 0.28rem;
+	color: #646464;
+	line-height: 150%;
+}
+.qi_fenxiang{
+	max-width: 1200px;
+	margin:0 auto;
+	padding:2% 0 1% 0;
+	border-bottom:1px solid #ccc;
+	overflow: hidden;
+}
+.jiathis_style_32x32 em{
+	float: left;
+	font-size: 0.3rem;
+	margin-top:8px;
+}
+.qi_conleft{
+	width: 40%;
+	float: left;
+	overflow: hidden;
+}
+.qi_conleft a{
+	display: block;
+	width: 100%;
+	border-bottom:1px solid #c8c8c8;
+	text-align:center;
+	color: #646464;
+	font-size:0.4rem;
+	padding: 3% 0 3% 0;
+	cursor: pointer;
+}
+.qi_conleft a:hover{
+	border-bottom:1px solid #63bcb6;	
+	color: #63bcb6;
+}
+.qi_conleft a.aclicks{
+	border-bottom:2px solid #63bcb6;	
+	color: #63bcb6;
+}
+.qi_conright{
+	width: 55%;
+	float: right;
+	overflow: hidden;
+	padding-bottom: 2%;
+}
+.qi_conright img{
+	padding: 2% 0;
+}
+
+.qi_acon{
+	display: none;
+}
+
+.banner{
+	display: block;
+}
+.h5_banner{
+	display: none;
+}
+
+@media (min-width:320px) and (max-width:640px){	
+	.qi_logo{
+		width:230px;
+		padding: 5% 0;
+	}
+	.qi_nav{
+		height:35px;
+		line-height:35px;
+	}
+	.qi_nav p{
+		width: 100%;
+		margin:0 auto;
+	}
+	.qi_nav p a{
+		font-size:0.3rem;
+		width: 33.3%;
+		padding: 0;
+	}
+	.qi_con{
+		width:94%;
+		padding:3%
+	}
+	.qi_adimg{
+		width:98%;
+		padding-left:2%;
+	}
+	.qi_adimg a:nth-child(1), .qi_adimg a:nth-child(2){
+		width:36.5%;
+		margin-right:2.2%;
+	}
+	.qi_adimg a:nth-child(3){
+		width:17.5%;
+	}
+	.qi_adimg2 section{
+		width:90%;
+	}
+	.qi_adimg2 section a:nth-child(1){
+		width:11%;
+		margin-right:22%;
+	}
+	.qi_adimg2 section a:nth-child(2){
+		width:20%;
+		margin-right:22%;
+	}
+	.qi_adimg2 section a:nth-child(3){
+		width:20%;
+	}
+	.qi_adimg{
+		display: none;
+	}
+	.qi_adimg2{
+		display: none;
+	}
+	.qi_adimg3{
+		width:96%;
+		display:block;
+		overflow: hidden;
+		margin:0 auto;
+	}
+	.qi_adimg3 a{
+		display: block;
+		float: left;
+	}
+	.qi_adimg3 a:nth-child(1){
+		width: 48%;
+		margin:0 3% 0 0;
+	}
+	.qi_adimg3 a:nth-child(2){
+		width: 48%;
+	}
+	.qi_adimg3 a:nth-child(3){
+		width: 99%;
+		margin-top:2%;
+	}
+	.qi_botnav{
+		height:auto;
+		margin-top:2.5%;
+	}
+	.qi_botnav section{
+		width:94%;
+		margin: 0 auto;
+	}
+	.qi_botnav section a{
+		width: 42%;
+		text-align: left;
+		float: left;
+		font-size:0.3.7rem;
+	}
+	.qi_botnav section a:nth-child(1), .qi_botnav section a:nth-child(2){
+		border-bottom:1px solid #fff;
+		margin: 0;
+	}
+	.qi_botnav section a:nth-child(3){
+		margin: 0;
+	}	
+	.qi_botnav section a:nth-child(4){
+		margin: 0;
+	}
+
+	.qi_botnav section a:nth-child(4) img{
+		width: 5%;
+		margin-top:22px;
+	}
+	.qi_botnav section a:hover{
+		background:#68beb6;
+	}
+	footer{
+		width: 92%;
+		margin:0 auto;
+		padding: 3% 0;
+	}
+	.qi_bnsize_1{
+		font-size:0.7rem;
+	}
+	.qi_bnsize_2{
+		font-size:0.4rem;
+		top:40%;
+	}
+	.qi_bnsize_3{
+		font-size:0.35rem;
+		top:50%;
+	}
+	.qi_conleft{
+		width: 100%;
+		display: none;
+	}
+	.qi_conleft.showHied{
+		display: block;
+	}
+	.qi_conright{
+		width: 100%;
+	}
+	.qi_acon{
+		display: block;
+		text-align:center;
+		border-bottom:1px solid #c8c8c8;
+		padding: 0 0 3% 0;
+		color: #646464;
+		font-size:0.4rem;
+		background:url(../img/xlimg.png) no-repeat top right;
+		background-size:10px 20px;	
+	}
+	.qi_acon.qi_aconqh{	
+		background:url(../img/xlimg2.png) no-repeat right 10px;
+		background-size:20px 10px;
+	}
+	.qi_conleft a{
+		border-bottom:1px solid #c8c8c8;
+		color: #646464;
+		background: #f5f5f5;
+	}
+	.qi_conleft a:hover{
+		border-bottom:1px solid #c8c8c8;	
+	}
+	.qi_conleft a.aclicks{
+		border-bottom:1px solid #c8c8c8;	
+		display:none;
+		color: #646464;
+	}
+	.qi_con p.qi_p1{
+		padding-top:2%;
+	}
+	.banner{
+	display: none;
+	}
+	.h5_banner{
+		display: block;
+	}
+
+}
