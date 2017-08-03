@@ -297,8 +297,17 @@ footer{
 .h5_banner{
 	display: none;
 }
+.qi_img_dz{
+	overflow: hidden;
+}
+.qi_img_dz img{
+	width: 50%;
+}
 
 @media (min-width:320px) and (max-width:640px){	
+	.qi_img_dz img{
+		width:100%;
+	}
 	.qi_logo{
 		width:230px;
 		padding: 5% 0;
