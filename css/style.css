@@ -206,29 +206,29 @@
 	padding: 0 2%;
 	font-size:0.3rem;
 	text-align:center;
-	margin-right:125px;
+	margin-right:25px;
 }
 .qi_botnav section a em{
 	display:block;
 }
-.qi_botnav section a:nth-child(3){
+.qi_botnav section a:nth-child(4){
 	text-align:left;
 }
 .qi_botnav section a:hover{	
 	background:#81d1cb;
 }
-.qi_botnav section a:nth-child(3):hover{
+.qi_botnav section a:nth-child(4):hover{
 	background:none;	
 }
 
-.qi_botnav section a:nth-child(4){
+.qi_botnav section a:nth-child(5){
 	text-align:left;
 	padding-right: 2%
 }
-.qi_botnav section a:nth-child(4) span{
+.qi_botnav section a:nth-child(5) span{
 	float: left;
 }
-.qi_botnav section a:nth-child(4) img{
+.qi_botnav section a:nth-child(5) img{
 	float: left;
 	display:block;
 	width: 10px;
@@ -334,15 +334,15 @@ footer{
 	.qi_adimg2 section{
 		width:90%;
 	}
-	.qi_adimg2 section a:nth-child(1){
+	.qi_adimg2 section a:nth-child(2){
 		width:11%;
 		margin-right:22%;
 	}
-	.qi_adimg2 section a:nth-child(2){
+	.qi_adimg2 section a:nth-child(3){
 		width:20%;
 		margin-right:22%;
 	}
-	.qi_adimg2 section a:nth-child(3){
+	.qi_adimg2 section a:nth-child(4){
 		width:20%;
 	}
 	.qi_adimg{
@@ -386,18 +386,18 @@ footer{
 		float: left;
 		font-size:0.3.7rem;
 	}
-	.qi_botnav section a:nth-child(1), .qi_botnav section a:nth-child(2){
+	.qi_botnav section a:nth-child(2), .qi_botnav section a:nth-child(3){
 		border-bottom:1px solid #fff;
 		margin: 0;
 	}
-	.qi_botnav section a:nth-child(3){
+	.qi_botnav section a:nth-child(4){
 		margin: 0;
 	}	
-	.qi_botnav section a:nth-child(4){
+	.qi_botnav section a:nth-child(5){
 		margin: 0;
 	}
 
-	.qi_botnav section a:nth-child(4) img{
+	.qi_botnav section a:nth-child(5) img{
 		width: 5%;
 		margin-top:22px;
 	}
