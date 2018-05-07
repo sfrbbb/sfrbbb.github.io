@@ -45,7 +45,7 @@ input, textarea, select {
 	display:block;
 	border:0 none;
 }
-img{display:block; border:0 none; width:100%;}
+img{display:block; border:0 none;}
 a{text-decoration:none;}
 
 input[type="submit"],
